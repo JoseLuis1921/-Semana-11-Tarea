@@ -1,6 +1,6 @@
 from gettext import textdomain
 
-temperaturas = [
+temperatures = [
     [  # Ciudad 1_Quito
         [   # Semana 1
             {"day": "Lunes", "temp": 58},
@@ -117,9 +117,10 @@ temperaturas = [
     ]
 ]
 # Calcular el promedio de temperaturas para cada ciudad y semana
-for ciudad in temperaturas:
+for ciudad in temperatures:
     for semana in ciudad:
         suma = 0
         for dia in semana:
             suma += dia['temp']
         print(suma)
+
