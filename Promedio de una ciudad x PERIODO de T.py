@@ -21,8 +21,6 @@ def calcular_temperatura_promedio(datos: List[Dict[str, List[float]]], ciudad: s
     promedio = sum(temperaturas) / len(temperaturas)
     return promedio
 
-
-# Ejemplo de uso:
 datos = [
     {'ciudad': 'QUITO', 'temperaturas': [58, 60, 33.0, 84, 68, 70, 60, 88,80]},
     {'ciudad': 'AMBATO', 'temperaturas': [75, 69, 65, 75, 74, 71, 69]},
